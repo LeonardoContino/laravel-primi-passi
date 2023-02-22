@@ -20,5 +20,11 @@ Route::get('/', function () {
 Route::get('/chisono', function () {
     return view('chisono');
 })->name('chisiamo');
+Route::get('/contatti', function () {
+    return view('contatti');
+})->name('contatti');
+Route::get('/laravel', function () {
+    return view('laravel');
+})->name('laravel');
 
 
